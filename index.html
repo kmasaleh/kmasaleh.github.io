@@ -1,0 +1,68 @@
+Html Webpack Plugin:
+<pre>
+  Error: Child compilation failed:
+  Module parse failed: Unexpected character '�' (1:0)
+  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+  (Source code omitted for this binary file):
+  SyntaxError: Unexpected character '�' (1:0)
+  ModuleParseError: Module parse failed: Unexpected character '�' (1:0)
+  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
+  (Source code omitted for this binary file)
+  
+  - NormalModule.js:787 handleParseError
+    [landing-page]/[webpack]/lib/NormalModule.js:787:19
+  
+  - NormalModule.js:850 
+    [landing-page]/[webpack]/lib/NormalModule.js:850:5
+  
+  - NormalModule.js:624 processResult
+    [landing-page]/[webpack]/lib/NormalModule.js:624:11
+  
+  - NormalModule.js:675 
+    [landing-page]/[webpack]/lib/NormalModule.js:675:5
+  
+  - LoaderRunner.js:404 
+    [landing-page]/[loader-runner]/lib/LoaderRunner.js:404:3
+  
+  - LoaderRunner.js:233 iterateNormalLoaders
+    [landing-page]/[loader-runner]/lib/LoaderRunner.js:233:10
+  
+  - LoaderRunner.js:224 Array.<anonymous>
+    [landing-page]/[loader-runner]/lib/LoaderRunner.js:224:4
+  
+  - CachedInputFileSystem.js:24 runCallbacks
+    [landing-page]/[enhanced-resolve]/lib/CachedInputFileSystem.js:24:49
+  
+  - CachedInputFileSystem.js:194 
+    [landing-page]/[enhanced-resolve]/lib/CachedInputFileSystem.js:194:4
+  
+  - graceful-fs.js:123 
+    [landing-page]/[graceful-fs]/graceful-fs.js:123:16
+  
+  - child-compiler.js:131 
+    [landing-page]/[html-webpack-plugin]/lib/child-compiler.js:131:18
+  
+  - Compiler.js:510 
+    [landing-page]/[webpack]/lib/Compiler.js:510:11
+  
+  - Compiler.js:1014 
+    [landing-page]/[webpack]/lib/Compiler.js:1014:17
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [landing-page]/[tapable]/lib/Hook.js:18:14
+  
+  - Compiler.js:1010 
+    [landing-page]/[webpack]/lib/Compiler.js:1010:33
+  
+  - Compilation.js:2029 
+    [landing-page]/[webpack]/lib/Compilation.js:2029:10
+  
+  
+  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
+    [landing-page]/[tapable]/lib/Hook.js:18:14
+  
+  - Compilation.js:2022 
+    [landing-page]/[webpack]/lib/Compilation.js:2022:37
+  
+</pre><script src="bundle.js"></script>
