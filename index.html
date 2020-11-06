@@ -1,68 +1,29 @@
-Html Webpack Plugin:
-<pre>
-  Error: Child compilation failed:
-  Module parse failed: Unexpected character '�' (1:0)
-  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
-  (Source code omitted for this binary file):
-  SyntaxError: Unexpected character '�' (1:0)
-  ModuleParseError: Module parse failed: Unexpected character '�' (1:0)
-  You may need an appropriate loader to handle this file type, currently no loaders are configured to process this file. See https://webpack.js.org/concepts#loaders
-  (Source code omitted for this binary file)
+Html Webpack Plugin: <pre>
+  Error: D:\Projects\Workshop\Udacity\fend-refresh-2019\fend-refresh-2019\projects\webpack\landing-page\index.html:148
+  /******/  if (!scriptUrl) throw new Error("Automatic publicPath is not supported in this browser");
+                            ^
+  Error: Automatic publicPath is not supported in this browser
   
-  - NormalModule.js:787 handleParseError
-    [landing-page]/[webpack]/lib/NormalModule.js:787:19
+  - index.html:148 
+    D:/Projects/Workshop/Udacity/fend-refresh-2019/fend-refresh-2019/projects/webpack/landing-page/index.html:148:34
   
-  - NormalModule.js:850 
-    [landing-page]/[webpack]/lib/NormalModule.js:850:5
+  - index.html:151 
+    D:/Projects/Workshop/Udacity/fend-refresh-2019/fend-refresh-2019/projects/webpack/landing-page/index.html:151:13
   
-  - NormalModule.js:624 processResult
-    [landing-page]/[webpack]/lib/NormalModule.js:624:11
+  - index.html:158 
+    D:/Projects/Workshop/Udacity/fend-refresh-2019/fend-refresh-2019/projects/webpack/landing-page/index.html:158:12
   
-  - NormalModule.js:675 
-    [landing-page]/[webpack]/lib/NormalModule.js:675:5
+  - index.js:321 HtmlWebpackPlugin.evaluateCompilationResult
+    [landing-page]/[html-webpack-plugin]/index.js:321:28
   
-  - LoaderRunner.js:404 
-    [landing-page]/[loader-runner]/lib/LoaderRunner.js:404:3
+  - index.js:237 
+    [landing-page]/[html-webpack-plugin]/index.js:237:22
   
-  - LoaderRunner.js:233 iterateNormalLoaders
-    [landing-page]/[loader-runner]/lib/LoaderRunner.js:233:10
+  - task_queues.js:85 processTicksAndRejections
+    internal/process/task_queues.js:85:5
   
-  - LoaderRunner.js:224 Array.<anonymous>
-    [landing-page]/[loader-runner]/lib/LoaderRunner.js:224:4
+  - async Promise.all
   
-  - CachedInputFileSystem.js:24 runCallbacks
-    [landing-page]/[enhanced-resolve]/lib/CachedInputFileSystem.js:24:49
-  
-  - CachedInputFileSystem.js:194 
-    [landing-page]/[enhanced-resolve]/lib/CachedInputFileSystem.js:194:4
-  
-  - graceful-fs.js:123 
-    [landing-page]/[graceful-fs]/graceful-fs.js:123:16
-  
-  - child-compiler.js:131 
-    [landing-page]/[html-webpack-plugin]/lib/child-compiler.js:131:18
-  
-  - Compiler.js:510 
-    [landing-page]/[webpack]/lib/Compiler.js:510:11
-  
-  - Compiler.js:1014 
-    [landing-page]/[webpack]/lib/Compiler.js:1014:17
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [landing-page]/[tapable]/lib/Hook.js:18:14
-  
-  - Compiler.js:1010 
-    [landing-page]/[webpack]/lib/Compiler.js:1010:33
-  
-  - Compilation.js:2029 
-    [landing-page]/[webpack]/lib/Compilation.js:2029:10
-  
-  
-  - Hook.js:18 Hook.CALL_ASYNC_DELEGATE [as _callAsync]
-    [landing-page]/[tapable]/lib/Hook.js:18:14
-  
-  - Compilation.js:2022 
-    [landing-page]/[webpack]/lib/Compilation.js:2022:37
+  - async Promise.all
   
 </pre><script src="bundle.js"></script>
